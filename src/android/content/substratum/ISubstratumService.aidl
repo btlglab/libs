@@ -16,6 +16,7 @@
 
 package android.content.substratum;
 
+/** {@hide} */
 interface ISubstratumService {
 
     /**
@@ -166,4 +167,3 @@ interface ISubstratumService {
      */
     boolean setEnabled(in String packageName, in boolean enable, in int userId);
 }
-
